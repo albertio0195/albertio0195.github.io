@@ -11,3 +11,6 @@ body {
 #me {
     box-shadow: 0px 0px 2px 1px black;
 }
+#hobby-list li:nth-child(odd){
+    background-color: green;
+}
