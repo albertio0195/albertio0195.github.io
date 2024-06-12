@@ -14,3 +14,6 @@ body {
 #hobby-list li:nth-child(odd){
     background-color: green;
 }
+ul {
+    list-style-type: none;
+}
