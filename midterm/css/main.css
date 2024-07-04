@@ -11,3 +11,10 @@ header {
     padding: 10px;
     box-sizing: border-box;
 }
+
+.nav-img {
+    width: 710px;
+    height: auto;
+    margin: 1px;
+    box-sizing: border-box;
+}
