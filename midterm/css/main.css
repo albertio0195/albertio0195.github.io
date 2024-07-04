@@ -7,22 +7,22 @@ body {
 header {
     position: relative;
     width: 700px;
-    height: 450px;
+    height: 320px;
     padding: 10px;
     box-sizing: border-box;
 }
 
-.nav-img {
-    position: ;
-    width: 710px;
+.nav-image {
+    width: 725px;
     height: auto;
-    margin: 1px;
+    margin: auto;
     box-sizing: border-box;
 }
 
 .wrapper {
     background-color: lightgray;
     width: 750px;
+    height: ;
     margin: auto;
     padding: 20px;
 }
@@ -82,17 +82,17 @@ a:hover {
 }
 
 #fullname {
-    width: 711px;
+    width: 690px;
     margin: 10px;
 }
 
 #email {
-    width: 711px;
+    width: 690px;
     margin: 10px;    
 }
 
 #message {
-    width: 711px;
+    width: 690px;
     margin: 10px;    
 }
 
@@ -102,4 +102,14 @@ h4 {
 
 footer {
     text-align: right;
+}
+
+.border {
+    border: 3px solid black;
+    margin: 1%;
+    padding: 2%;
+}
+
+.list {
+    
 }
