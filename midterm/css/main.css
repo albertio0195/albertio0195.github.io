@@ -25,3 +25,11 @@ header {
     margin: auto;
     padding: 20px;
 }
+
+h1 {
+    position: relative;
+    top: 40%;
+    text-align: center;
+    color: white;
+    font-size: 30px ;
+}
