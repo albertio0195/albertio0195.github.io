@@ -7,4 +7,8 @@ body {
 
 header {
     position: relative;
+    height: 100px;
+    padding: 10px;
+    width: 700px;
+    box-sizing: border-box;
 }
