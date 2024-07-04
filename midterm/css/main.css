@@ -18,3 +18,10 @@ header {
     margin: 1px;
     box-sizing: border-box;
 }
+
+.wrapper {
+    background-color: lightgray;
+    width: 750px;
+    margin: auto;
+    padding: 20px;
+}
