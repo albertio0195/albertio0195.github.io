@@ -13,6 +13,7 @@ header {
 }
 
 .nav-img {
+    position: relative;
     width: 710px;
     height: auto;
     margin: 1px;
@@ -37,4 +38,68 @@ h1 {
 nav ul {
     list-style-type: none;
     padding-left: 0;
+}
+
+nav li {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(42,42,42);
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+
+.inline-image {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#form {
+    border: 1px solid black;
+    padding-top: 15px;
+}
+
+.label {
+    margin-left: 10px;
+}
+
+#fullname {
+    width: 711px;
+    margin: 10px;
+}
+
+#email {
+    width: 711px;
+    margin: 10px;    
+}
+
+#message {
+    width: 711px;
+    margin: 10px;    
+}
+
+h4 {
+    padding: 10px;
+}
+
+footer {
+    text-align: right;
 }
